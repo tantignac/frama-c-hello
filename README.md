@@ -4,7 +4,7 @@ Hello is a plug-in for [Frama-C](https://frama-c.com), a platform for source cod
 
 # Installation
 
-Assuming [Opam](https://opam.ocaml.org) and Frama-C[Frama-C](https://frama-c.com) are already installed on your system, you can install Hello by downloading this repository as an archive and run (from inside `frama-c-hello/`):
+Assuming [Opam](https://opam.ocaml.org) and [Frama-C](https://frama-c.com) are already installed on your system, you can install Hello by downloading this repository as an archive and run (from inside `frama-c-hello/`):
 ```shell
 opam pin add frama-c-hello .
 opam install frama-c-hello
