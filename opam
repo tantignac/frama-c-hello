@@ -1,0 +1,23 @@
+opam-version: "1.2"
+name: "frama-c-hello"
+version: "20171101"
+maintainer: "Thibaud Antignac <thibaud.antignac@cea.fr>"
+authors: "Anne Onymous <anne.onymous@example.com>"
+homepage: "https://frama-c.com/"
+bug-reports: "https://github.com/tantignac/frama-c-hello/issues"
+license: "no-license"
+dev-repo: "https://github.com/tantignac/frama-c-hello.git"
+build: [
+  [make]
+]
+install: [make "install"]
+remove: ["ocamlfind" "remove" "frama-c-hello"]
+build-doc: [
+  [make "doc"]
+]
+build-test: [
+  [make "tests"]
+]
+depends: [
+  "frama-c" {build & >= "20171101"}
+]

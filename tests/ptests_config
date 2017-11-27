@@ -1,0 +1,8 @@
+DEFAULT_SUITES= hello
+TOPLEVEL_PATH=/Users/tantignac/.opam/system/bin/frama-c
+FRAMAC_SHARE=/Users/tantignac/.opam/system/share/frama-c
+FRAMAC_LIB=/Users/tantignac/.opam/system/lib/frama-c
+FRAMAC_PLUGIN=.:/Users/tantignac/.opam/system/lib/frama-c/plugins
+FRAMAC_PLUGIN_GUI=./gui:/Users/tantignac/.opam/system/lib/frama-c/plugins/gui
+OCAMLFIND_IGNORE_DUPS_IN=/Users/tantignac/.opam/system/lib/frama-c/plugins
+OCAMLRUNPARAM=

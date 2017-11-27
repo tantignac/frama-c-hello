@@ -1,0 +1,3 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing tests/hello/hello_test.c (with preprocessing)
+[hello] Hello, world!
