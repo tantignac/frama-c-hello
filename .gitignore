@@ -1,0 +1,5 @@
+*.o
+*.cm*
+.depend
+.Makefile.plugin.generated
+*.check_mli_exists
